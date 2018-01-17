@@ -35,11 +35,11 @@ setup(
     license='BSD',
     packages=find_packages(exclude=['tests*']),
     install_requires=[
-        'djangorestframework>=3.2.3,<=3.4.6'
+        'djangorestframework>=3.7.4,<3.8.0'
     ],
     test_suite='runtests.run',
     tests_require=[
-        'Django>=1.8.14,<=1.10.1'
+        'Django>=2.0.0,<=2.0.1'
     ],
     zip_safe=False,
     classifiers=[
@@ -49,13 +49,10 @@ setup(
         'Intended Audience :: Developers',
         'License :: OSI Approved :: BSD License',
         'Operating System :: OS Independent',
-        'Programming Language :: Python :: 2',
-        'Programming Language :: Python :: 2.6',
-        'Programming Language :: Python :: 2.7',
         'Programming Language :: Python :: 3',
-        'Programming Language :: Python :: 3.2',
-        'Programming Language :: Python :: 3.3',
         'Programming Language :: Python :: 3.4',
+        'Programming Language :: Python :: 3.5',
+        'Programming Language :: Python :: 3.6',
         'Topic :: Internet :: WWW/HTTP',
     ]
 )
